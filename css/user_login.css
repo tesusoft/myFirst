@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+img,picture,video *{
+  width: 100%;
+  display: block;
+}
+
+html, body{
+  height: 100%;
+}
+
+main{
+  height: inherit
+}
+#sign-up-wrapper{
+  display: flex;
+  height: inherit; 
+
+}
+
+#form-container, #form-image-container{
+  flex:1;
+}
+
+#form-image-container >img{
+  object-fit: cover;
+  height: 100%;
+}
+
+#form-container{
+
+  padding: 1rem
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  align-items: center;
+}
+
+header>span{
+  font-size: 0.8rem;
+}
+
+header #logo-image{
+  width: 6rem;
+  
+}
+
+@media only screen and (max-width: 970px) {
+  #form-image-container{
+    display: none;
+  }
+}
+
+form{
+  font-size: 0.8rem;
+}
+
+#form-content{
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+#form-content > form{
+  width: 75%;
+}
+
+#form-content > form>button{
+  
+  all:unset;
+  width: 100%;
+  background-color: #29C3E5;
+  border-radius: 0.4rem;
+  color: white; 
+  text-align: center;
+  padding: 0.7rem 0;
+}
+#form-content > h1{
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+#form-settings-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.form-input{
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #F3F4F6;
+}
+
+
+#social-container{
+  margin-bottom: 2rem;
+}
+#social-container>p{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#social-container>ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}

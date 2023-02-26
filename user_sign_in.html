@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/user_login.css" />
+    <link rel="stylesheet" href="css/user_signup.css" />
     <title>Document</title>
   </head>
   <body>
@@ -19,14 +19,13 @@
             />
 
             <span
-              >Don't have an Account?
-              <a href="/user_sign_in.html">Sign up</a></span
+              >Already have an account? <a href="/index.html">Sign up</a></span
             >
           </header>
           <div id="form-content">
-            <h1>Sign In</h1>
+            <h1>Create an account</h1>
             <form>
-              <input type="text" placeholder="Username" class="form-input" />
+              <input type="text" placeholder="Full Name" class="form-input" />
 
               <input type="email" placeholder="Email" class="form-input" />
 
@@ -35,13 +34,12 @@
                 placeholder="Password"
                 class="form-input"
               />
-              <div id="form-settings-container">
-                <div id="remember-me">
-                  <input type="checkbox" name="remember_me" />
-                  <label for="remember_me"> Remember Me</label>
-                </div>
-                <a href="#">Forgot Password?</a>
-              </div>
+              <input
+                type="password"
+                placeholder="Confirm Password"
+                class="form-input"
+              />
+
               <div id="social-container">
                 <p>Or sign in with</p>
 
@@ -69,7 +67,7 @@
           </div>
         </div>
         <div id="form-image-container">
-          <img src="assets/auth/Container 4464.png" alt="" />
+          <img src="assets/auth/Container 4465.png" alt="" />
         </div>
       </div>
     </main>
